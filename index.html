@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="logo">
+    <img class="odin" src="./images/odin-lined.png" alt="The Odin Project Logo">
+    <h1 class="TOP">ODIN</h1>
+   </div>
+   <div class="right"></div>
+    <p class="intro">This is not an online service.But you know you wanna apply for it already.<br>So sign-up RIGHT NOW!!!!<br><br>You know you want to.</p> 
+    <div class="form">
+        <div class="caption">LET'S DO THIS</div>
+        <form class="form">
+            <div class="fleft">
+
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstName">
+
+                <label for="email">E-Mail ID</label>
+                <input type="email" id="email" name="eMail">
+
+                <label for="password">First Name</label>
+                <input type="password" id="password" name="passWord">
+
+            </div>
+            <div class="fright">
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastName">
+
+                <label for="Number">Phone Number</label>
+                <input type="number" id="Number" name="phoneNumber" pattern="/^+91(7\d|8\d|9\d)\d{9}$/" title="Please add +91 in the beginning">
+                
+                <label for="confirm">Confirm Password</label>
+                <input type="password" id="confirm" name="cPassWord">
+                
+            </div>
+            <button type="submit" class="submit">Create Account</button>
+        </form>
+        <div class="link">
+            <div class="note">Already have an account?</div>
+            <a class="sign-in">Sign-In</a>
+        </div>
+    </div>
+    
+</body>
+</html>
