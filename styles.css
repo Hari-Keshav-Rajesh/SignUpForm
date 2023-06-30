@@ -1,0 +1,104 @@
+body{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    background-image: url("./images/background-logo.avif");
+    margin-bottom: 0;
+    width:50vh;
+    margin-top: 0;
+    margin-left: 0;
+    height:100vh;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.odin{
+    height: 20vh;
+    width:20vh;
+}
+
+.text{
+    font-size: 10vh;
+}
+
+.right{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    padding-left: 7vh;
+}
+
+.intro{
+    font-size: 5vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+#inputs{
+    display: flex;
+    gap:3vh;
+    align-items: center;
+    background-color:beige;
+    padding-left: 2vh;
+    margin-right: 80vh;
+}
+
+.fleft{
+    display: flex;
+    flex-direction: column;
+}
+
+.fright{
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    display: flex;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+}
+
+.caption{
+    font-size: 3vh;
+    margin-bottom: 4vh;
+}
+
+label{
+    font-weight: 100;
+    color: blue;
+}
+
+.submit{
+    margin-top:2vh;
+    background-color: #596D48;
+    font-weight: bold;
+    width:25vh;
+    color: white;
+    border-radius: 1vh;
+    padding: 2vh;
+    font-size: 2vh;
+}
+
+.sign-in{
+    color: green;
+}
+
+input{
+    font-size: 2vh;
+    margin-bottom: 5vh;
+    border-radius: 0.5vh;
+}
+
+
+
+
